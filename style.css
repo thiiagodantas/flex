@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(104, 16, 0);
+    flex-direction: column;
+  }
+  
+  .flex-container > div {
+    background-color: #ddbf5d;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
